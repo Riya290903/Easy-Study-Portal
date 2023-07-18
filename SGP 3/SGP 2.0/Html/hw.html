@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>perform any operation</h1>
+    
+    <input type="number" id="num">
+    <input type="number" id="numz">
+    <span>
+        <label for="operation">Chose the operation : </label>
+        <select name="operation" id="operation" onchange="method()">
+            <option value="" id="">----select----</option>
+            <option value="sum" id="sum">sum</option>
+            <option value="mul" id="mul">Multiplication</option>
+            <option value="div" id="div">Division</option>
+            <option value="sub" id="sub">Subtraction</option>
+        </select>
+
+    </span>
+    <label for="">Ans is:</label>
+    <input type="ans" id="ans">
+    </div>
+    
+    <h1>add items</h1>
+    <input type="text" id="items"></input>
+    <button onclick="add()">ADD</button>
+    <select name="itemselect" id="itemselect" onchange="sort()">
+        <option value="" id="">----select----</option>
+        <option value="org" id="org">original</option>
+        <option value="short" id="short">shorted</option>
+    </select>
+    <ul id="list">
+
+    </ul>
+    
+    <h2>lab 4</h2>
+   <img src="th.jpg" id="car" alt="" onclick="car()">
+   <img src="th (1).jpg" id="bike" alt="" onclick="bike()">
+   <img src="th (2).jpg" id="phone" alt="" onclick="phone()">
+
+   <tr id="wish">
+
+   </tr>
+    <script src="hw.js"></script>
+</body>
+</html>
